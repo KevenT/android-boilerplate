@@ -15,7 +15,8 @@ import uk.co.ribot.androidboilerplate.util.MyGsonTypeAdapterFactory;
 
 public interface RibotsService {
 
-    String ENDPOINT = "https://api.ribot.io/";
+//    String ENDPOINT = "https://api.ribot.io/";
+    String ENDPOINT = "https://ribot-api.herokuapp.com/";
 
     @GET("ribots")
     Observable<List<Ribot>> getRibots();
